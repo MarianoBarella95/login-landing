@@ -50,37 +50,46 @@ input {
 }
 
 #mail {
-    border-radius: 3px;
+    border-radius: 5px;
     height: 35px;
     border-color: lightblue;
 }
 
 #contraseña {
-    border-radius: 3px;
+    border-radius: 5px;
     height: 35px;
     border-color: lightblue;
 }
 
 #entrar {
     margin: 10px;
-    border-radius: 5px;
-    width: 185px;
+    padding: 5px 35px;
+    border-radius: 3px;
+    width: 185px;   
+    font-family: 'UbuntuBold';
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #e5e5f7;
     height: 30px;
     background-color: #F72585;
-    box-shadow: 2px 5px 5px;
+    /* box-shadow: 2px 5px 8px; */
+    border: 0;
 }
 
 #entrar:hover {
     font-weight: bolder;
+    box-shadow: 0 5px 15px rgba(247, 37, 133, .4);
 }
 
 .olvidar {
     margin: 10px;
     border-radius: 15px;
+    border: 0;
 }
 
 h1 {
     font-family: 'UbuntuBold';
+    color: #000000;
 }
 
 .olvidar:hover {
